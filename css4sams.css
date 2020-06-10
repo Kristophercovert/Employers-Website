@@ -1,0 +1,379 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Assets/MixSerif.ttf);
+}
+
+body, html {
+    height: 100%;
+}
+
+#body{
+	background-image:url(Assets/backgroundIMG.jpg);
+	max-width: 960px;
+	margin: auto;
+	font-family: Myriad Pro, Arial, sans-serif;
+}
+
+#main{
+	margin:30px 0px 30px 0px;
+	padding: 20px 10px 10px 10px;
+	background-color: white;
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 5px 5px 8px lightgrey;
+}
+
+#dividerimg{
+	margin-top: 5px;
+	margin-bottom:20px;
+	margin-left: 15px;
+}
+
+#dividerimg2{
+	margin-left: 15px;
+}
+
+#bannerimg{
+	display:block;
+	margin:auto;
+	text-align:center;
+	border-radius: 20px;
+}
+
+.clear {
+	clear: both;
+}
+
+#welcomeToSams{
+	font-size:18px;
+	font-family:myFirstFont;
+	padding-left: 60px;
+	margin: auto;
+	color: #B33739;
+}
+
+#intro_and_viewmenu{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	display: flex;
+	flex-wrap: wrap;
+	color: #FFAA3D;
+	margin-left: 20px;
+}
+
+#section1{
+	font-size: 25px;
+	margin-right: 40px;
+	margin-left: 20px;
+	width: 400px;
+}
+
+#section2{
+	font-size: 23px;
+	margin-left: 20px;
+	width: 400px;
+	float: right;
+}
+
+#menuBtn{
+	border-radius: 10px;
+	padding: 10px;
+	background-color: #FFAA3D;
+	list-style: none;
+	color: white;
+	text-decoration: none;
+}
+
+h2, h1, h3 {
+	font-family:myFirstFont;
+	color: #B33739;
+	
+}
+
+#visitLocations{
+	text-align: center;
+	font-size:30px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+table{
+		background-color: #EFEFEF;
+		border-style: none;
+		width: 300px;
+		padding: 20px 20px 28px 20px;
+		margin-top: 5px;
+		border-radius: 10px 10px 0px 0px;
+		font-family: Helvetica, Arial, "sans-serif";
+	}
+
+th{
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+}
+
+th, td{
+	padding: 5px;
+}
+
+#locations{
+	margin: auto;
+	margin-bottom: 40px;
+	width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#mapsection1{
+	background-color:#EFEFEF;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	width: 300px;
+	box-shadow: 5px 5px 8px lightgrey;
+}
+
+#mapsection2{
+	background-color:#EFEFEF;
+	padding: 10px;
+	border-radius: 10px 10px 10px 10px;
+	margin-left: 140px;
+	width: 300px;
+	box-shadow: 5px 5px 8px lightgrey;
+}
+
+footer{
+	margin:auto;
+	width:50%;
+	font-size:20px;
+	text-align:center;
+}
+
+#copyright{
+	font-size:14px;
+	color: #DDDDDD;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and ( max-width : 930px ){
+	
+	#bannerimg {
+    margin: 0; /* The margin is 0, when the viewport is 200px or smaller */
+  }
+	
+	#welcomeToSams{
+	text-align: center;
+	font-size: 14px;
+	font-family:myFirstFont;
+	padding-left: 3px;
+	margin: auto;
+	color: #B33739;
+}
+	#intro_and_viewmenu{
+		width: 700px;
+		margin:auto;
+	}
+	
+	#section1{
+		width: 300px;
+	}
+	#section2{
+		width: 300px;
+	}
+	
+	#visitLocations{
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 50px;
+	}
+	
+	#locations{
+		width:600px;
+	}
+	
+	#mapsection1{
+	width:250px;
+
+}
+
+	#mapsection2{
+	width:250px;
+	margin-left: 50px;
+}
+	table{
+		width:270px;
+		margin-left:-10px;
+	}
+	
+	.maps{
+		width:250px;
+	}
+	
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+@media screen and ( max-width : 700px ){
+	
+	#intro_and_viewmenu{
+		width: 600px;
+		margin:auto;
+	}
+	
+	#section1{
+		font-size: 24px;
+		text-align: center;
+		width: 250px;
+	}
+	#section2{
+		font-size: 24px;
+		margin-left: 0px;
+		text-align: center;
+		width: 250px;
+	}
+	
+
+	
+}
+	
+	
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 600px) {
+	
+	
+	
+	#intro_and_viewmenu{
+		width: 400px;
+		margin-left: 0px;
+	}
+	
+	#dividerimg{
+	margin-top: 55px;
+	margin-bottom:20px;
+}
+	
+	#section1{
+		font-size: 25px;
+		text-align: center;
+		width: 410px;
+	}
+	#section2{
+		font-size: 29px;
+		margin-left: 0px;
+		text-align: center;
+		width: 410px;
+	}
+	#menuBtn{
+
+		font-size:40px;
+	}
+	
+	#locations{
+		width:350px;
+		display: flex;
+		flex:none;
+	}
+	
+	#mapsection1{
+		font-size: 20px;
+	width:350px;
+	margin:auto;
+	}
+
+	#mapsection2{
+		font-size: 20px;
+		margin:auto;
+		margin-top: 30px;
+	width:350px;
+	
+}
+	table{
+		width:270px;
+		margin-left:-10px;
+	}
+	
+	.locationtable{
+		margin-bottom: 30px;
+		padding:0px;
+		margin-left:10px;
+		width:350px;
+	}
+	
+	.cityTitles{
+		text-align: center;
+		font-size: 30px;
+	}
+	
+	.maps{
+		width:350px;
+	}
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (max-width: 425px) {
+
+	footer{
+		width:85%;
+	}
+
+	#intro_and_viewmenu{
+		width: 100%;
+		margin-left: 0px;
+		text-align:center;
+	}
+
+	iframe{
+		width:50px;
+	}
+
+	#locations{
+		width:100%;
+	}
+
+	.locationtable{
+		width:100%;
+	}
+
+	#main{
+	margin:10px 0px 10px 0px;
+	width:100%;
+	}
+
+	#mapsection1{
+	width:100%;
+	}
+
+	#mapsection2{
+		width:100%;
+	}
+
+	#section1{
+		font-size:21px;
+		margin:auto;
+		width: 90%;
+	}
+	
+	#section2{
+		font-size:21px;
+		margin:auto;
+		width: 90%;
+	}
+
+	#visitLocations{
+		font-size:23px;
+	}
+}
+
